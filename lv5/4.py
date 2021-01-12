@@ -1,0 +1,7 @@
+import sys
+
+input = sys.stdin.readline
+lst = [int(input()) % 42 for _ in range(0, 10)]
+lst = list(set(lst))
+
+print(len(lst))
